@@ -26,7 +26,7 @@ def main():
     transferData = TransferData(access_token)
 
     file_from = str(input('Enter The Folder Path to Transfer:- '))
-    file_to = str(input('Enter The Path to upload to dropbox:- '))  # The full path to upload the file to, including the file name
+    file_to = str(input('Enter The Path to upload to dropbox:- '))  
 
     # API v2
     transferData.upload_file(file_from, file_to)
